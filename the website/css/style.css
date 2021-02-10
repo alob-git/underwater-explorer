@@ -1,0 +1,290 @@
+
+  body{
+  background-color:#f6f5f5;
+
+  font-family: 'Montserrat', sans-serif ,monospace;
+  color: #00334e;
+  font-size: 1.3em;
+
+  }
+
+  li{
+    list-style-type: none;
+    padding: 1%;
+  }
+  hr{
+    border:none;
+    border-top:9px dotted #ee6f57;
+    width:44%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+  }
+  h1
+  {
+  font-family: 'Montserrat', sans-serif;
+  color: #145374;
+  }
+  h3
+  {
+  font-family:  'Work Sans', sans-serif;
+  color: #145374;
+  font-size: 1.5em;
+  text-align: center;
+  }
+  h4{
+    color: #ee6f57;
+    font-size: 1.2em;
+    text-align: center;
+
+  }
+  footer{
+    padding-top: 4%;
+    padding-bottom: 2%;
+  }
+
+  .imgP{
+    width: 70%;
+    height: 70%;
+    border: 7px solid #f6f5f5;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .phprofile
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:25%;
+    min-width: 200px;
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+  }
+  .presenta{
+    width: 44%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 150px;
+    margin-top: 5%;
+    text-align: justify;
+  }
+  .skills
+  {
+display: inline-block;  }
+.cover{
+
+  height:48%;
+  width : 100%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.imgC{
+width:100%;
+ height:100%;
+ display:block;
+}
+.titro{
+  padding-top: 7%;
+}
+.tex
+{
+  display: block;
+  position: relative;
+  bottom: 180px;
+
+
+}
+.navbar{
+  position: absolute;
+  opacity: 0.8;
+  width: 100%;
+}
+.nav-item{
+
+  padding: 1% 4%;
+}
+.avis{
+  height: 230px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.corpus {
+  ;
+  padding: 1% 15%;
+}
+.spé{
+  text-align: center;
+
+}
+.icon:hover{
+  color:  #ee6f57;
+}
+.icon{
+padding: 5%;
+}
+.col-lg-4{
+  text-align: center;
+}
+
+/* photo page  */
+
+.piccover{
+height: auto;
+width: 100%;
+background-color: black;
+max-width: 100%;
+max-height: 100%;
+position: relative;
+ text-align: center;
+ color: white;
+ font-size: 10.2vw;
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+
+
+}
+.PICC{
+  max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 1px auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.col-sm{
+  border-style: solid;
+  border-color: white;
+}
+
+.buttonDL{
+text-align: center;
+}
+footer{
+  text-align: center;
+}
+
+
+/*test
+html{
+  font-size: 20px;
+}
+body{
+  font-family: sans-serif;
+  margin: 1rem;
+}
+*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(1fr, 6);
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    grid-gap: 0.2rem;
+    max-width: 100%;
+    overflow: hidden!important;
+
+
+}
+
+.tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    transition: all ease-in-out 1s
+}
+
+.tile:nth-child(1){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.tile:nth-child(2)
+{
+    grid-column: span 2;
+      grid-row: span 2;
+}
+
+.tile:nth-child(4),{
+     grid-column: span 2;}
+
+.tile:nth-child(3){
+
+  grid-column:span 1;}
+}
+.tile:nth-child(5){
+    grid-column: span 1;
+}
+.tile:nth-child(6){
+    grid-column: span 2;
+}
+tile:nth-child(7){
+  grid-column: span 2;
+  grid-row: 1;
+
+}
+tile:nth-child(8){  grid-row: span 1;}
+
+@media screen and (max-width: 650px){
+    .container{
+      display: block;
+    }
+
+
+
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+
+
+    }
+
+.tile img:hover{
+      width: 100%;
+      height: 100%;
+      transform: scale(1.09); /* Firefox */
+      transition: all ease-in-out 1s ; /* Firefox */
+
+
+
+    }
+  .tile {  overflow: hidden!important;  transition: all ease-in-out 1s ;
+  }
+}
+.tile img{transition: transform all 0.5s ease;
+}
+
+.presentation{
+  width: 60%;
+margin-top: 4%;
+margin-bottom: 4%;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+.presentation h1{
+  text-align: center;
+}
+
+.boitecon{
+  padding-left: 20%;
+padding-right: 20% ;
+margin-left: auto;
+margin-top: 4%;
+
+}
